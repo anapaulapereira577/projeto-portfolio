@@ -60,7 +60,7 @@ nav#menu a:hover{
 }
  main {
   display: grid;
-  grid-template-columns: auto 90vw auto;
+  grid-template-columns: 1fr;
   padding: 20px;
   margin-top: 20px;
    
@@ -111,3 +111,11 @@ nav#menu a:hover{
     color: var(--destaque-inverso)
   }
   
+  #detalhes {
+    margin-top: 20px;
+  }
+
+  #detalhes article{
+    margin-bottom: 40px;
+   color:var(--destaque);
+  }
